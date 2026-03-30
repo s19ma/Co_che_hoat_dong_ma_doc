@@ -27,4 +27,5 @@ Tổng cộng có 17 mẫu thử nghiệm mã độc và 2 mẫu sạch được
  - Kiểm tra điều kiện môi trường: Mã độc chỉ thực thi nếu phát hiện có chuột, cửa sổ Excel được phóng to tối đa, máy tính có khả năng ghi âm/phát thanh, hoặc các đường dẫn t
 
 
-![Uploading unnamed.png…](<img width="1536" height="2752" alt="image" src="https://github.com/user-attachments/assets/b75e7cff-4593-4270-97ab-b02274941f7e" />)
+<img width="1536" height="2752" alt="image" src="https://github.com/user-attachments/assets/b75e7cff-4593-4270-97ab-b02274941f7e" />
+
