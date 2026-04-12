@@ -21,7 +21,3 @@ Sub AutoOpen()
 End Sub
 
 
-Le .bas que j'utilise contient une macro qui fait juste un pop up à chaque fois que tu crée un nouveau doc
-Son code peut être remplacé par n'importe quoi
-
-Pour exporter un .bas : clic droit sur la macro dans VBA et exporter un fichier
