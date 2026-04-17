@@ -29,3 +29,4 @@ Tổng cộng có 17 mẫu thử nghiệm mã độc và 2 mẫu sạch được
 
 <img width="1536" height="2752" alt="image" src="https://github.com/user-attachments/assets/b75e7cff-4593-4270-97ab-b02274941f7e" />
 
+<img width="1553" height="645" alt="image" src="https://github.com/user-attachments/assets/ca86ebb0-3de9-4489-9980-c7500af580e9" />
