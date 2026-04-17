@@ -1,3 +1,10 @@
+## Table of Contents
+[Tổng quan](#tổng-quan-dataset)
+
+[Tool](#tool-extract-vba)
+
+## Tổng quan dataset
+
 https://github.com/s19ma/Co_che_hoat_dong_ma_doc/tree/main/All_Excel_Doc_Macro
 
 **1. Số lượng và Phân loại**
@@ -30,3 +37,36 @@ Tổng cộng có 17 mẫu thử nghiệm mã độc và 2 mẫu sạch được
 <img width="1536" height="2752" alt="image" src="https://github.com/user-attachments/assets/b75e7cff-4593-4270-97ab-b02274941f7e" />
 
 <img width="1553" height="645" alt="image" src="https://github.com/user-attachments/assets/ca86ebb0-3de9-4489-9980-c7500af580e9" />
+
+## Tool-extract-vba
+Tool [olevba](https://github.com/decalage2/oletools/wiki/olevba)
+
+ <img width="940" height="601" alt="image" src="https://github.com/user-attachments/assets/98960512-f13e-47f2-aa9c-cf4192e826ce" />
+ 
+Figure 1 VBA từ MalwareBazaar
+
+
+ <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/bf894c38-25c5-4f41-90a8-c35824d4d4da" />
+ 
+Figure 2 File Excel từ github
+
+
+ <img width="940" height="549" alt="image" src="https://github.com/user-attachments/assets/53974076-75a0-411c-badc-b594765656a4" />
+ 
+Figure 3 File Excel từ github
+
+
+[ViperMonkey](https://github.com/decalage2/ViperMonkey)
+
+
+<img width="940" height="563" alt="image" src="https://github.com/user-attachments/assets/ff66fc53-56cf-420c-9acb-06ca45e46612" />
+
+Figure 4 VBA từ MalwareBazaar
+
+<img width="940" height="549" alt="image" src="https://github.com/user-attachments/assets/cd65c412-c688-448d-b3f6-21596137d82f" />
+
+Figure 5 File Excel từ github
+
+<img width="940" height="617" alt="image" src="https://github.com/user-attachments/assets/cef04f9c-51c4-4f65-aa1f-031117a3b457" />
+
+Figure 6 File Excel từ github
