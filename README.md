@@ -18,7 +18,11 @@ Tổng cộng có 17 mẫu thử nghiệm mã độc và 2 mẫu sạch được
 
 - Nhóm 4 (4 mẫu): Các mẫu nâng cao kết hợp kỹ thuật từ các nhóm trên nhưng loại bỏ cơ chế tự động chạy (Auto_Open) và thêm các kỹ thuật phát hiện môi trường ảo (sandboxing) để né tránh phân tích
 
+- Nhóm 5 (16 mẫu) – Chưa phân loại: Các mẫu VBA phức tạp hoặc bị obfuscate mạnh, chưa xác định rõ hành vi chính.
 
+- Nhóm 7 (78 mẫu): Các mẫu VBA từ [MalwareBazaar](https://bazaar.abuse.ch/browse/tag/vba/)
+
+  
 **2. Các kỹ thuật lẩn trốn (Evasion Techniques)**
 - Làm rối mã (Obfuscation):
   - Sử dụng các hàm Excel như CHAR, MID, CODE, HEX2DEC để che giấu chuỗi lệnh độc hại
@@ -31,15 +35,15 @@ Tổng cộng có 17 mẫu thử nghiệm mã độc và 2 mẫu sạch được
 
 - Phát hiện môi trường ảo/Sandbox (Sandboxing Detection):
  - Sử dụng các hàm GET.WORKSPACE, GET.DOCUMENT, GET.WINDOW để kiểm tra thông tin hệ thống
- - Kiểm tra điều kiện môi trường: Mã độc chỉ thực thi nếu phát hiện có chuột, cửa sổ Excel được phóng to tối đa, máy tính có khả năng ghi âm/phát thanh, hoặc các đường dẫn t
+ - Kiểm tra điều kiện môi trường: Mã độc chỉ thực thi nếu phát hiện có chuột, cửa sổ Excel được phóng to tối đa, máy tính có khả năng ghi âm/phát thanh.
 
 
 <img width="1536" height="2752" alt="image" src="https://github.com/user-attachments/assets/b75e7cff-4593-4270-97ab-b02274941f7e" />
 
 <img width="1553" height="645" alt="image" src="https://github.com/user-attachments/assets/ca86ebb0-3de9-4489-9980-c7500af580e9" />
 
-## Tool-extract-vba
-Tool [olevba](https://github.com/decalage2/oletools/wiki/olevba)
+## Tool-extract-vba 
+Tool [olevba](https://github.com/decalage2/oletools/wiki/olevba) Phân tích tĩnh
 
  <img width="940" height="601" alt="image" src="https://github.com/user-attachments/assets/98960512-f13e-47f2-aa9c-cf4192e826ce" />
  
@@ -56,7 +60,7 @@ Figure 2 File Excel từ github
 Figure 3 File Excel từ github
 
 
-[ViperMonkey](https://github.com/decalage2/ViperMonkey)
+[ViperMonkey](https://github.com/decalage2/ViperMonkey) Phân tích động dạng giả lập (emulation)
 
 
 <img width="940" height="563" alt="image" src="https://github.com/user-attachments/assets/ff66fc53-56cf-420c-9acb-06ca45e46612" />
