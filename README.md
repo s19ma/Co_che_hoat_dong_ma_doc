@@ -8,7 +8,6 @@
 https://github.com/s19ma/Co_che_hoat_dong_ma_doc/tree/main/All_Excel_Doc_Macro
 
 **1. Số lượng và Phân loại**
-Tổng cộng có 17 mẫu thử nghiệm mã độc và 2 mẫu sạch được liệt kê
 
 - Nhóm 1 (4 mẫu): Sử dụng hàm EXEC để thực thi các lệnh shell (như khởi chạy powershell.exe với lệnh đã mã hóa)
 
