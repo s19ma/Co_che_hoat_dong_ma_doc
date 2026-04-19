@@ -19,7 +19,7 @@ https://github.com/s19ma/Co_che_hoat_dong_ma_doc/tree/main/All_Excel_Doc_Macro
 
 - Nhóm 5 (16 mẫu) – Chưa phân loại: Các mẫu VBA phức tạp hoặc bị obfuscate mạnh, chưa xác định rõ hành vi chính.
 
-- Nhóm 7 (78 mẫu): Các mẫu VBA từ [MalwareBazaar](https://bazaar.abuse.ch/browse/tag/vba/)
+- Nhóm 6 (78 mẫu): Các mẫu VBA từ [MalwareBazaar](https://bazaar.abuse.ch/browse/tag/vba/)
 
   
 **2. Các kỹ thuật lẩn trốn (Evasion Techniques)**
@@ -43,6 +43,14 @@ https://github.com/s19ma/Co_che_hoat_dong_ma_doc/tree/main/All_Excel_Doc_Macro
 
 ## Tool-extract-vba 
 Tool [olevba](https://github.com/decalage2/oletools/wiki/olevba) Phân tích tĩnh
+Cách hoạt động:
+
+- Trích xuất macro VBA từ file Office
+- Phân tích:
+  - Chuỗi đáng ngờ (suspicious strings)
+  - Hàm nguy hiểm: Shell, CreateObject, AutoOpen
+  - URL, PowerShell command
+- Hỗ trợ deobfuscate cơ bản (Base64, chuỗi ghép)
 
  <img width="940" height="601" alt="image" src="https://github.com/user-attachments/assets/98960512-f13e-47f2-aa9c-cf4192e826ce" />
  
@@ -61,7 +69,23 @@ Figure 3 File Excel từ github
 
 [ViperMonkey](https://github.com/decalage2/ViperMonkey) Phân tích động dạng giả lập (emulation)
 
+Cách hoạt động:
 
+- Parse và interpret code VBA
+- Mô phỏng execution flow:
+  - Theo dõi biến
+  - Thực thi logic điều kiện, vòng lặp
+- Ghi lại hành vi:
+  - Lệnh PowerShell
+  - URL tải payload
+  - Chuỗi được giải mã
+
+- Ví dụ:
+
+Macro:
+Shell "powershell -enc aGVsbG8="
+
+→ ViperMonkey sẽ hiển thị command sau khi decode, nhưng không thực thi thật
 <img width="940" height="563" alt="image" src="https://github.com/user-attachments/assets/ff66fc53-56cf-420c-9acb-06ca45e46612" />
 
 Figure 4 VBA từ MalwareBazaar
