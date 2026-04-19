@@ -9,19 +9,25 @@ https://github.com/s19ma/Co_che_hoat_dong_ma_doc/tree/main/All_Excel_Doc_Macro
 
 **1. Số lượng và Phân loại**
 
-- Nhóm 1 (4 mẫu): Sử dụng hàm EXEC để thực thi các lệnh shell (như khởi chạy powershell.exe với lệnh đã mã hóa)
-
-- Nhóm 2 (4 mẫu): Sử dụng hàm REGISTER để gọi các hàm từ thư viện Kernel32.dll (như VirtualAlloc, WriteProcessMemory, CreateThread) nhằm ghi mã độc trực tiếp vào bộ nhớ và thực thi, thường làm Excel bị treo sau khi chạy
-
-- Nhóm 3 (5 mẫu): Sử dụng hàm CALL để truy cập urlmon.dll tải tệp từ bên ngoài (như từ GitHub) và thực thi chúng qua shell32.dll
-
-- Nhóm 4 (4 mẫu): Các mẫu nâng cao kết hợp kỹ thuật từ các nhóm trên nhưng loại bỏ cơ chế tự động chạy (Auto_Open) và thêm các kỹ thuật phát hiện môi trường ảo (sandboxing) để né tránh phân tích
-
-- Nhóm 5 (16 mẫu) – Chưa phân loại: Các mẫu VBA phức tạp hoặc bị obfuscate mạnh, chưa xác định rõ hành vi chính.
-
-- Nhóm 6 (78 mẫu): Các mẫu VBA từ [MalwareBazaar](https://bazaar.abuse.ch/browse/tag/vba/)
-
+- Github:
+  - Nhóm 1 (4 mẫu): Sử dụng hàm EXEC để thực thi các lệnh shell (như khởi chạy powershell.exe với lệnh đã mã hóa)
   
+  - Nhóm 2 (4 mẫu): Sử dụng hàm REGISTER để gọi các hàm từ thư viện Kernel32.dll (như VirtualAlloc, WriteProcessMemory, CreateThread) nhằm ghi mã độc trực tiếp vào bộ nhớ và thực thi, thường làm Excel bị treo sau khi chạy
+  
+  - Nhóm 3 (5 mẫu): Sử dụng hàm CALL để truy cập urlmon.dll tải tệp từ bên ngoài (như từ GitHub) và thực thi chúng qua shell32.dll
+  
+  - Nhóm 4 (4 mẫu): Các mẫu trong nhóm này vẫn sử dụng các kỹ thuật chính như EXEC, REGISTER hoặc CALL, nhưng được bổ sung thêm các cơ chế phát hiện môi trường phân tích (sandbox/VM detection).
+  
+  - Nhóm 5 (16 mẫu) – Chưa phân loại: Các mẫu VBA/Doc/Excel chưa xác định rõ hành vi chính.
+
+- Nhóm 6 (78 mẫu): Các mẫu VBA thực tế được thu thập từ [MalwareBazaar](https://bazaar.abuse.ch/browse/tag/vba/), không được phân loại sẵn
+
+  - Đặc điểm:
+
+    - Thường sử dụng kỹ thuật làm rối mã (obfuscation)
+    - Có thể kết hợp nhiều hành vi: tải payload, thực thi lệnh, inject memory
+    - Một số mẫu sử dụng kỹ thuật né sandbox (anti-analysis)
+      
 **2. Các kỹ thuật lẩn trốn (Evasion Techniques)**
 - Làm rối mã (Obfuscation):
   - Sử dụng các hàm Excel như CHAR, MID, CODE, HEX2DEC để che giấu chuỗi lệnh độc hại
