@@ -103,3 +103,20 @@ Figure 5 File Excel từ github
 <img width="940" height="617" alt="image" src="https://github.com/user-attachments/assets/cef04f9c-51c4-4f65-aa1f-031117a3b457" />
 
 Figure 6 File Excel từ github
+
+
+# Benign Malware:
+
+Tổng cộng:
+
+- 42 file dữ liệu/code benign VBA 
+Chi tiết:
+
+Thư mục gốc 
+- Benign_VBA: 11 file + 2 folder
+- Folder ScottSchaen excel-vba-macros master macros: 12 file .bas
+- Folder VBA-Code-Library-master: 20 file
+
+# Malware Bazaar daily: https://datalake.abuse.ch/malware-bazaar/daily/   
+04/2025 - 05/2026: 
+- 635 file docm, xlsm, ppam chứa VBA độc hại
