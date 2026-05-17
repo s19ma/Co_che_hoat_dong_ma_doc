@@ -103,7 +103,7 @@ Bộ dữ liệu đối chứng phục vụ cho việc huấn luyện/kiểm th�
 **Chi tiết cấu trúc cây thư mục:**
 ```text
 Thư mục gốc: Benign_VBA
-├── 11 file đơn lẻ + 2 thư mục con
+├── 9 file đơn lẻ + 2 thư mục con
 ├── Thư mục: ScottSchaen-excel-vba-macros-master
 │   └── 12 file mã nguồn mở rộng (.bas)
 └── Thư mục: VBA-Code-Library-master
