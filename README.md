@@ -98,7 +98,7 @@
 
 ## 3. Dữ liệu mẫu lành tính (Benign VBA)
 
-Bộ dữ liệu đối chứng phục vụ cho việc huấn luyện/kiểm thử mô hình bao gồm **42 tệp tin dữ liệu/mã nguồn VBA sạch**.
+Bộ dữ liệu đối chứng phục vụ cho việc huấn luyện/kiểm thử mô hình bao gồm **625 tệp tin dữ liệu/mã nguồn VBA sạch**.
 
 **Chi tiết cấu trúc cây thư mục:**
 ```text
@@ -108,6 +108,8 @@ Thư mục gốc: Benign_VBA
 │   └── 12 file mã nguồn mở rộng (.bas)
 └── Thư mục: VBA-Code-Library-master
     └── 20 file mã nguồn thư viện tiện ích
+└── Thư mục: vba_dataset (https://github.com/AllenMattson/VBA/tree/master - 186, https://github.com/tduyng/vba-excel/tree/master - 398)
+    └── 584 file mã nguồn vba an toàn 
 ```
 
 ## 4. Dữ liệu cập nhật từ MalwareBazaar Daily
